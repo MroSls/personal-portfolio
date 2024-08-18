@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
-    <title>Mi Portafolio</title>
+    <link rel="website icon" type="ico" href="img/toxic.ico"> <!--Icono de la pestaña-->
     <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'> <!--Iconos FlatIcon-->
+    <title>Preuba</title>
+    
 </head>
 <body>
     <header>
-        <h1>Mi Portafolio</h1>
+        <img src="img/toxic.ico" alt="LOGO">
+        <h1>Portafolio</h1>
         <nav>
             <ul>
                 <li><a href="#about">Sobre Mí</a></li>
@@ -18,59 +21,53 @@
             </ul>
         </nav>
     </header>
-    <section id="about">
-        <h2>Sobre Mí</h2>
-        <p>Descripción breve sobre ti.</p>
-    </section>
-    <section id="projects">
-        <h2>Proyectos</h2>
-        <div class="project">
-            <h3>Proyecto 1</h3>
-            <p>Descripción del proyecto.</p>
-        </div>
-        <div class="project">
-            <h3>Proyecto 2</h3>
-            <p>Descripción del proyecto.</p>
-        </div>
-        <!-- Añade más proyectos aquí -->
-    </section>
-
-    <section id="contact" class="content contacto">
-        <h2 class="title" id="Contacto">Contacto</h2>
-        <div class="box-container">
-            <div class="box">
-                <a href="https://www.facebook.com/ColosioSolis" target="_blank"><i class="fi fi-brands-facebook"></i></i></a>
-                <h3>Facebook</h3>
-            </div>
-            <div class="box">
-                <a href="https://x.com/MROSLS08" target="_blank"><i class="fi fi-brands-twitter-alt-circle"></i></a>
-                <h3>X</h3>
-            </div>
-            <div class="box">
-                <a href="https://www.reddit.com/user/MROSLS/" target="_blank"><i class="fi fi-brands-reddit"></i></a>
-                <h3>Reddit</h3>
-            </div>
-            <div class="box">
-                <a href="https://open.spotify.com/user/vf6tnin70rz9lnw3219yzsmg2?si=95c4f68a2c7d45cc" target="_blank"><i class="fi fi-brands-spotify"></i></a>
-                <h3>Spotify</h3>
-            </div>
-            <div class="box">
-                <a href="https://www.linkedin.com/in/mario-solis-a5b448301/" target="_blank"><i class="fi fi-brands-linkedin"></i></a>
-                <h3>LinkedIn</h3>
-            </div>
-            <div class="box">
-                <a href="https://github.com/MroSls" target="_blank"><i class="fi fi-brands-github"></i></a>
-                <h3>GitHub</h3>
-            </div>
-            <div class="box">
-                <a href="https://discord.com/users/752196668010528849" target="_blank"><i class="fi fi-brands-discord"></i></a>
-                <h3>Discord</h3>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>© 2024 MROSLS-COLOSIO</p>
+<!--Aqui termina el Header e inicia el Main-->
+    <main>
+        <article class="a-about" id="about">
+            <section class="about-t">
+                <h2>Sobre Mí</h2>
+                <p>Estudiante de Ing. en computacion cursando el 7mo grado</p>
+            </section>
+            <section class="about-i">
+                <img src="img/Avatar-Samsung.jpg" alt="My" >
+            </section>
+        </article>
+       <!--Aqui termina el about e inicia projects-->
+        <article class="a-projects" id="projects">
+            <h2>Proyectos</h2>
+            <article class="a-sections">
+                <section>
+                    <h3>Descarga de Windows Server 2022</h3>
+                    <p>En este tutorial se te mostarara como descargar Windows Server 2022</p>
+                </section>
+    
+                <section>
+                    <h3>Descarga de Ubuntu Server 24.04</h3>
+                    <p>En este tutorial se te mostarara como descargar Ubuntu Server 24.04</p>
+                </section>
+            </article>
+        </article>
+    </main>
+    <!--Aqui termina el Main e inicia el Footer-->
+    <footer id="contact">
+        <ul class="footer_left">
+            <li><h2>perfiles</h2></li>
+            <li><a href="https://www.linkedin.com/in/mario-solis-a5b448301/" target="_blank"><i class="fi fi-brands-linkedin"></i></a></li>
+            <li><a href="https://github.com/MroSls" target="_blank"><i class="fi fi-brands-github"></i></a></li>
+            <li><a href="https://discord.com/users/752196668010528849" target="_blank"><i class="fi fi-brands-discord"></i></a></li>
+            
+            <li><a href="https://open.spotify.com/user/vf6tnin70rz9lnw3219yzsmg2?si=95c4f68a2c7d45cc" target="_blank"><i class="fi fi-brands-spotify"></i></a></li>
+        </ul>
+        <ul class="footer_right">
+            <li><h2>Redes Sociales</h2></li>
+            <li><a href="https://www.facebook.com/ColosioSolis" target="_blank"><i class="fi fi-brands-facebook"></i></a></li>
+            <li><a href="https://x.com/MROSLS08" target="_blank"><i class="fi fi-brands-twitter-alt-circle"></i></a></li>
+            <li><a href="https://www.reddit.com/user/MROSLS/" target="_blank"><i class="fi fi-brands-reddit"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fi fi-brands-snapchat"></i></a></li>
+            
+        </ul>
+        <small>Uicons by <a href="https://www.flaticon.com/uicons" target="_blank">Flaticon</a></small>
+        <small>&copy; 2024 <b>MROSLS-COLOSIO</b> 💀</small>
     </footer>
 </body>
 </html>
