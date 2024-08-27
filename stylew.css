@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=New+Amsterdam&display=swap');/*Importa fuentes de Google Fonts*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2f4538;
+  color: white;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*Fin del body*/
+
+h1, h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin: 10px 100px;
+}
+
+section img {
+    width: 80%;
+    margin: 0 100px;
+}
+/*Fin de la tipografía*/
+
+header {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 0;
+}
+  
+header img {
+  height: 5em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
